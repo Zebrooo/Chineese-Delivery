@@ -2,7 +2,7 @@ import React from 'react';
 import { Breadcrumb, Layout, theme } from 'antd';
 const { Content } = Layout;
 import { Button, Space } from 'antd';
-import OneItem from '../../UI/OneItem';
+import OneItem from 'components/UI/OneItem';
 
 export default function MainPage(): JSX.Element {
   const {

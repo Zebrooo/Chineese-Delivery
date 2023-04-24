@@ -1,8 +1,8 @@
 import { Route, Routes, Link } from 'react-router-dom';
 import { Suspense } from 'react';
-import AppNavbar from '../components/UI/AppNavbar';
-import { MainPageAsync } from '../components/Pages/MainPage/MainPage.async';
-import { AboutPageAsync } from '../components/Pages/AboutPage/AboutPage.async';
+import { MainPageAsync } from 'Pages/MainPage/MainPage.async';
+import { AboutPageAsync } from 'Pages/AboutPage/AboutPage.async';
+import AppNavbar from 'components/UI/AppNavbar';
 
 export default function App() {
   return (
