@@ -2,7 +2,7 @@ import React from 'react';
 import { Breadcrumb, Layout, theme } from 'antd';
 const { Content } = Layout;
 import { Button, Space } from 'antd';
-// import OneItem from '../UI/OneItem';
+import OneItem from '../../UI/OneItem';
 
 export default function MainPage(): JSX.Element {
   const {
@@ -14,7 +14,7 @@ export default function MainPage(): JSX.Element {
         <Breadcrumb style={{ margin: '16px 0' }}>
           <Breadcrumb.Item>Home</Breadcrumb.Item>
           <Breadcrumb.Item>List</Breadcrumb.Item>
-          <Breadcrumb.Item>App</Breadcrumb.Item>
+          <Breadcrumb.Item>App</Breadcrumb.Item>xw
         </Breadcrumb>
         <div
           style={{
@@ -65,14 +65,14 @@ export default function MainPage(): JSX.Element {
             gap: '2vh',
           }}
         >
-          {/* <OneItem />
           <OneItem />
           <OneItem />
           <OneItem />
           <OneItem />
           <OneItem />
           <OneItem />
-          <OneItem /> */}
+          <OneItem />
+          <OneItem />
         </Content>
       </div>
     </Layout>
