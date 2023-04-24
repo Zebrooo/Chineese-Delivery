@@ -1,4 +1,3 @@
-// import '../index.scss';
 import { Route, Routes, Link } from 'react-router-dom';
 import { Suspense } from 'react';
 import AppNavbar from '../components/UI/AppNavbar';

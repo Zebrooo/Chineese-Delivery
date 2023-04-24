@@ -5,9 +5,6 @@
     "module": "ESNext",
     "target": "es5",
     "baseUrl": ".",
-    "paths": {
-      "*": ["./src*"]
-    },
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
