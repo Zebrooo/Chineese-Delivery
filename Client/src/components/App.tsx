@@ -4,8 +4,6 @@ import { MainPageAsync } from './Pages/MainPage/MainPage.async';
 import { AboutPageAsync } from './Pages/AboutPage/AboutPage.async';
 
 import { Suspense } from 'react';
-// import MainPage from './Pages/MainPage/MainPage';
-// import AboutPage from './Pages/AboutPage/AboutPage';
 import AppNavbar from './UI/AppNavbar';
 
 export default function App() {
