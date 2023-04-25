@@ -1,9 +1,7 @@
-import React from 'react';
 import { Breadcrumb, Layout, Menu, theme, ConfigProvider, Avatar, Badge } from 'antd';
 import { Col, Row } from 'antd';
 import { LogoutOutlined, ShoppingOutlined, UserOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
-// import SignIn from './SignIn';
 
 const { Header, Content, Footer } = Layout;
 
