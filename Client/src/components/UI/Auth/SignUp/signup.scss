@@ -1,0 +1,34 @@
+.signup__input {
+  margin-top: 1.5vh;
+}
+.signup__link {
+  color: #b9242c;
+}
+
+.signup__div_button {
+  height: 7vh;
+  padding-top: 2vh;
+  text-decoration: none;
+  margin-bottom: 2vh;
+}
+.signup__button {
+  height: 7vh;
+  padding-top: 2vh;
+  text-decoration: none;
+}
+.signup__button:hover {
+  background-color: #b9242c;
+}
+
+.signup__logo_div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2vh;
+  vertical-align: middle;
+}
+
+.signup__logo {
+  font-size: 4vh;
+}
