@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktypescript=self.webpackChunktypescript||[]).push([[288],{288:(e,t,r)=>{r.r(t),r.d(t,{default:()=>c});var s=r(893);function c(){return(0,s.jsx)("div",{children:"MainPage"})}}}]);
