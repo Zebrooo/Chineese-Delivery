@@ -11,11 +11,14 @@ pipeline {
         
         stage('Build') {
             steps {
-                // Шаг для установки зависимостей с помощью npm
-                sh 'npm install'
-                
-                // Шаг для сборки проекта с помощью npm
-                sh 'npm run build'
+                // Переход в папку "Client"
+                dir('Client') {
+                    // Шаг для установки зависимостей с помощью npm
+                    sh 'npm install'
+                    
+                    // Шаг для сборки проекта с помощью npm
+                    sh 'echo "Dimarik174" | sudo -S npm run build:prod'
+                }
             }
         }
     }
